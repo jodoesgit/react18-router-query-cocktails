@@ -10,7 +10,7 @@ const SinglePageError = () => {
 				justifyContent: "center",
 			}}
 		>
-			<h2>{error.message}</h2>
+			<h2>something went wrong...</h2>
 			<button className="btn">
 				<Link to="/">back home</Link>
 			</button>
